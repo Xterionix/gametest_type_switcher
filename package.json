@@ -1,0 +1,43 @@
+{
+  "name": "gametest-types-switcher",
+  "displayName": "Gametest Types Switcher",
+  "description": "Adds a few simple commands to switch between different different versions of @minecraft/server",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "gametest-types-switcher.server_beta",
+        "title": "Gametest: @minecraft/server 1.9.0-beta"
+      },
+      {
+        "command": "gametest-types-switcher.server_stable",
+        "title": "Gametest: @minecraft/server 1.8.0"
+      },
+
+      {
+        "command": "gametest-types-switcher.server_preview",
+        "title": "Gametest: @minecraft/server 1.10.0-beta"
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.85.0",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "18.x",
+    "eslint": "^8.56.0",
+    "typescr
