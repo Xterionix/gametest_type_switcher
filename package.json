@@ -1,5 +1,6 @@
 {
   "name": "gametest-types-switcher",
+  "publisher": "Xterionix",
   "displayName": "Gametest Types Switcher",
   "description": "Adds a few simple commands to switch between different different versions of @minecraft/server",
   "version": "1.0.0",
