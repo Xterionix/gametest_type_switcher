@@ -22,16 +22,16 @@
     "commands": [
       {
         "command": "gametest-types-switcher.server_beta",
-        "title": "Gametest: @minecraft/server 1.9.0-beta"
+        "title": "Gametest: @minecraft/server 1.10.0-beta"
       },
       {
         "command": "gametest-types-switcher.server_stable",
-        "title": "Gametest: @minecraft/server 1.8.0"
+        "title": "Gametest: @minecraft/server 1.9.0"
       },
 
       {
         "command": "gametest-types-switcher.server_preview",
-        "title": "Gametest: @minecraft/server 1.10.0-beta"
+        "title": "Gametest: @minecraft/server 1.11.0-beta"
       }
     ]
   },

@@ -8,19 +8,19 @@ function activate(context) {
 
 	let disposable1 = vscode.commands.registerCommand('gametest-types-switcher.server_stable', () => {
 
-		showLoadingWindow(context.extensionPath + '\\bats\\stable.bat', '@minecraft/server 1.8.0');
+		showLoadingWindow(context.extensionPath + '\\bats\\stable.bat', '@minecraft/server 1.9.0');
 
 	});
 
 	let disposable2 = vscode.commands.registerCommand('gametest-types-switcher.server_beta', () => {
 
-		showLoadingWindow(context.extensionPath + '\\bats\\beta.bat', '@minecraft/server 1.9.0-beta');
+		showLoadingWindow(context.extensionPath + '\\bats\\beta.bat', '@minecraft/server 1.10.0-beta');
 
 	});
 
 	let disposable3 = vscode.commands.registerCommand('gametest-types-switcher.server_preview', () => {
 
-		showLoadingWindow(context.extensionPath + '\\bats\\preview.bat', '@minecraft/server 1.10.0-beta');
+		showLoadingWindow(context.extensionPath + '\\bats\\preview.bat', '@minecraft/server 1.11.0-beta');
 
 	});
 
