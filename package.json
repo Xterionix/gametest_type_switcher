@@ -3,7 +3,7 @@
   "publisher": "Xterionix",
   "displayName": "Gametest Types Switcher",
   "description": "Adds a few simple commands to switch between different different versions of @minecraft/server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/Xterionix/gametest_type_switcher.git"
